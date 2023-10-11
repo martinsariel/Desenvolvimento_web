@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Dancing Script', cursive, sans-serif;
+    background-color: #d37455;
+}
+.inicio {
+    text-align: center;
+    padding: 10px;
+}
+.inicio-list {
+    list-style: none;
+}
+.inicio-item {
+    display: inline;
+    margin-right: 80px;
+    font-size: 30px;
+}
+.inicio-item a {
+    text-decoration: none;
+    color: #030000;
+    font-weight: bold;
+}
+.identidade {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d37455;
+    text-align: justify;
+    color: #f9eee5;
+    font-size: 25px;
+}
+.identidade-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #f9eee5;
+}
+.identidade-image {
+    max-width: 80%;
+    height: auto;
+}
+.cadastro {
+    text-align: center;
+    padding: 10px;
+}
+.cadastro-list {
+    list-style: none;
+}
+.cadastro-item {
+    display: inline;
+    margin-right: 100px;
+    font-size: 30px;
+}
+.cadastro-item a {
+    text-decoration: none;
+    color: #030000;
+    font-weight: bold;
+}
+.cadastro-image {
+    max-width: 80%;
+    height: auto;
+}
+
+.form-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/*resposividade*/
+@media screen and (max-width: 600px) {
+    .login-form {
+        width: 90%;
+    }
+}
