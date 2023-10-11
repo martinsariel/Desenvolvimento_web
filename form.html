@@ -19,27 +19,29 @@
         <h1 class="inicio-title">Cadastre-se</h1>
         <p class="inicio-description">Se inscreva conosco e garanta sua vaga!</p>
         
-        <form class="form" action="cadastro.php" method="post">
+        <form class="form">
             <div class="campo">
                 Nome Completo:<br>
-                <input type="text" name="name"><br><br>
+                <input type="text" name="name" required><br><br>
             </div>
             <div class="endereco">
                 E-mail:<br>
-                <input type="text" name="email"><br><br>
+                <input type="email" name="email" required><br><br>
                 Telefone:<br>
-                <input type="text" name="fone"><br><br>
+                <input type="tel" name="fone" required><br><br>
                 Endereço Completo: <input type="text" name="address"><br>
                 CEP: <input type="text" name="CEP"><br><br>
             </div>
             <div class="sexo">
                 Sexo:<br>
-                <input type="radio" name="sex" value="M">Masculino<br>
-                <input type="radio" name="sex" value="F">Feminino<br><br>
+                <input type="radio" name="sex" value="M" id="sexoM">
+                <label for="sexoM">Masculino</label><br>
+                <input type="radio" name="sex" value="F" id="sexoF">
+                <label for="sexoF">Feminino</label><br><br>
             </div>
             <div class="senha">
-                Senha: <input type="password" name="password"><br>
-                Confirmação da Senha: <input type="password" name="confirmPassword"><br><br>
+                Senha: <input type="password" name="password" required><br>
+                Confirmação da Senha: <input type="password" name="confirmPassword" required><br><br>
             </div>
             <input type="submit" value="Cadastrar" class="form-button">
         </form>
