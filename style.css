@@ -2,27 +2,34 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Dancing Script', cursive, sans-serif;
     background-color: #d37455;
 }
+
 .inicio {
     text-align: center;
     padding: 10px;
+
 }
+
 .inicio-list {
     list-style: none;
 }
+
 .inicio-item {
     display: inline;
     margin-right: 80px;
     font-size: 30px;
 }
+
 .inicio-item a {
     text-decoration: none;
     color: #030000;
     font-weight: bold;
 }
+
 .identidade {
     max-width: 800px;
     margin: 20px auto;
@@ -30,21 +37,26 @@ body {
     background-color: #d37455;
     color: #f9eee5;
     font-size: 25px;
-    text-align: center;
+    text-align: justify;
+
 }
+
 .identidade-title {
     font-size: 40px;
     margin-bottom: 10px;
     color: #f9eee5;
 }
+
 .identidade-image {
     max-width: 80%;
     height: auto;
 }
+
 .cadastro {
     text-align: center;
-    padding: 10px;
+    padding: 10px 0px 0px 55px;
 }
+
 .cadastro-item {
     display: inline;
     margin-right: 100px;
@@ -53,24 +65,33 @@ body {
     color: #030000;
     font-weight: bold;
 }
+
 .inicio-description {
     font-size: 30px;
     margin-bottom: 10px;
     color: #f9eee5;
 }
+
 .cadastro-image {
     max-width: 80%;
     height: auto;
 }
+
 .form-button {
     background-color: #333;
     color: #fff;
     border: none;
-    padding: 10px 20px;
     font-weight: bold;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
 }
+
+.form {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 0px 0px 300px;
+}
+
 
 /*resposividade*/
 @media screen and (max-width: 600px) {
